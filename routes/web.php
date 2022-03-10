@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('jackSparrow', [SpaController::class, 'index'])->name('jackSparrow');
 Route::get('soepyaeaung', [SpaController::class, 'index'])->name('soepyaeaung');
