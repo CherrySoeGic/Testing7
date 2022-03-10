@@ -22,4 +22,4 @@ Route::get('/', function () {
 Route::get('jackSparrow', [SpaController::class, 'index'])->name('jackSparrow');
 Route::get('soepyaeaung', [SpaController::class, 'index'])->name('soepyaeaung');
 Route::get('jacksoe', [SpaController::class, 'index'])->name('jacksoe');
-Route::get('cherry', [CherryController::class, 'index'])->name('cherry');
+Route::get('cherrysoe', [CherryController::class, 'index'])->name('cherry');
