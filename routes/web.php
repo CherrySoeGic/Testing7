@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CherryController;
+use App\Http\Controllers\SpaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +22,4 @@ Route::get('/', function () {
 Route::get('jackSparrow', [SpaController::class, 'index'])->name('jackSparrow');
 Route::get('soepyaeaung', [SpaController::class, 'index'])->name('soepyaeaung');
 Route::get('jacksoe', [SpaController::class, 'index'])->name('jacksoe');
+Route::get('cherry', [CherryController::class, 'index'])->name('cherry');
